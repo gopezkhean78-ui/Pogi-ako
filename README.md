@@ -362,11 +362,7 @@
 
 </section>
 
-            </div>
-
-        </div>
-
-    </section>
+    
 
     <!-- FINAL TASKS -->
     <section id="final">
