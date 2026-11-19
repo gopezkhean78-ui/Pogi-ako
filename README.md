@@ -332,26 +332,36 @@
 
     </section>
 
-    <!-- MIDTERM TASKS -->
-    <section id="midterm">
+   
+                
+<!-- MIDTERM TASKS -->
+<section id="midterm">
 
-        <h2>Midterm Laboratory Tasks</h2>
+    <h2>Midterm Laboratory Tasks</h2>
 
-        <div class="cards">
+    <div class="cards">
 
-            <div class="card">
-                <h3>Laboratory Task 1</h3>
-                <p>Gopez Khean Aislie S_ TERM 2 Prog Lab Task 1.pdf</p>
-            </div>
+        <div class="card">
+            <h3>Laboratory Task 1</h3>
+            <p>Gopez Khean Aislie S_ TERM 2 Prog Lab Task 1.pdf</p>
+            <a href="Gopez%20Khean%20Aislie%20S_%20TERM%202%20Prog%20Lab%20Task%201.pdf" target="_blank">View PDF</a>
+        </div>
 
-            <div class="card">
-                <h3>Laboratory Task 2</h3>
-                <p>lab task2 midterms term 2 prog.pdf</p>
-            </div>
+        <div class="card">
+            <h3>Laboratory Task 2</h3>
+            <p>lab task2 midterms term 2 prog.pdf</p>
+            <a href="lab%20task2%20midterms%20term%202%20prog.pdf" target="_blank">View PDF</a>
+        </div>
 
-            <div class="card">
-                <h3>Laboratory Task 3</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil wala pa ray mo</p>
+        <div class="card">
+            <h3>Laboratory Task 3</h3>
+            <p>dito ilalagay ang link pero di ko pa nilagay dahil wala pa ray mo</p>
+        </div>
+
+    </div>
+
+</section>
+
             </div>
 
         </div>
