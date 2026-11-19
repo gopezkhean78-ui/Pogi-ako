@@ -341,7 +341,7 @@
 
             <div class="card">
                 <h3>Laboratory Task 1</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>Gopez Khean Aislie S_ TERM 2 Prog Lab Task 1.pdf</p>
             </div>
 
             <div class="card">
