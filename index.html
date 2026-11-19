@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopez, Khean Aislie S. | Domain Expansion</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080511;
+            color: white;
+        }
+
+        header {
+            min-height: 100vh;
+            padding: 25px 8%;
+            background:
+                linear-gradient(rgba(8, 5, 17, .75), rgba(8, 5, 17, .95)),
+                radial-gradient(circle at center, #54217b, #080511 70%);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo {
+            color: #c99aff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            color: #c99aff;
+        }
+
+        .profile {
+            position: absolute;
+            top: 85px;
+            right: 8%;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #bd83ff;
+            object-fit: cover;
+            background: #251238;
+        }
+
+        .profile p {
+            margin-top: 8px;
+            color: #d8baff;
+        }
+
+        .hero {
+            margin-top: 180px;
+            max-width: 750px;
+            animation: appear 1.5s ease;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            color: #d4a8ff;
+            text-shadow: 0 0 20px #9d4edd;
+        }
+
+        .hero h2 {
+            margin: 15px 0;
+            font-size: 25px;
+        }
+
+        .hero p {
+            color: #c9bfd6;
+            line-height: 1.7;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #8e44ad;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: .3s;
+        }
+
+        .button:hover {
+            background: #c084fc;
+            transform: scale(1.08);
+            box-shadow: 0 0 20px #a855f7;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #d4a8ff;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .about {
+            background: #100b1c;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+            color: #d0c5dc;
+        }
+
+        .learning {
+            background: #080511;
+        }
+
+        .learning-box {
+            max-width: 800px;
+            margin: auto;
+            padding: 25px;
+            background: #171024;
+            border-left: 4px solid #a855f7;
+            border-radius: 10px;
+        }
+
+        .learning-box p {
+            padding: 12px 0;
+            border-bottom: 1px solid #39264d;
+            color: #d0c5dc;
+        }
+
+        .tasks {
+            background: #100b1c;
+        }
+
+        .task-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .task-card {
+            padding: 25px;
+            background: #1b1229;
+            border: 1px solid #563477;
+            border-radius: 12px;
+            transition: .3s;
+        }
+
+        .task-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px #843bc0;
+            border-color: #c084fc;
+        }
+
+        .task-card h3 {
+            color: #c99aff;
+            margin-bottom: 12px;
+        }
+
+        .task-card p {
+            color: #c9bfd6;
+            line-height: 1.6;
+        }
+
+        .task-card a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #d4a8ff;
+            text-decoration: none;
+        }
+
+        .task-card a:hover {
+            color: white;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: #080511;
+            color: #a99ab8;
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 700px) {
+            .profile {
+                position: static;
+                margin-top: 35px;
+            }
+
+            .hero {
+                margin-top: 80px;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            nav {
+                justify-content: center;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="home">
+
+        <nav>
+            <div class="logo">DOMAIN EXPANSION</div>
+
+            <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#learning">Learning</a>
+                <a href="#midterm">Midterm</a>
+                <a href="#final">Final</a>
+            </div>
+        </nav>
+
+        <!-- PROFILE: Replace the image link with your own photo -->
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo">
+            <p>Gopez, Khean Aislie S.</p>
+        </div>
+
+        <div class="hero">
+            <h1>DOMAIN EXPANSION</h1>
+            <h2>Welcome to My Digital Portfolio</h2>
+
+            <p>
+                Every challenge is an opportunity to learn.
+                Explore my activities, laboratory tasks, and learning
+                journey throughout the semester.
+            </p>
+
+            <a href="#about" class="button">Explore Portfolio</a>
+        </div>
+
+    </header>
+
+    <!-- ABOUT ME -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am Gopez, Khean Aislie S., a student who is
+            continuously learning and improving my skills.
+            This portfolio contains my activities, laboratory tasks,
+            and experiences throughout the course.
+            I believe that every lesson is an opportunity to grow.
+        </p>
+    </section>
+
+    <!-- LEARNING -->
+    <section class="learning" id="learning">
+        <h2>My Learning Journey</h2>
+
+        <div class="learning-box">
+            <p>01. Learning is the first step toward improvement.</p>
+            <p>02. Every activity helps me develop new skills.</p>
+            <p>03. Challenges help me become more independent.</p>
+            <p>04. Consistency and effort lead to progress.</p>
+            <p>05. Every experience is part of my growth.</p>
+        </div>
+    </section>
+
+    <!-- MIDTERM LAB TASKS -->
+    <section class="tasks" id="midterm">
+        <h2>Midterm Laboratory Tasks</h2>
+
+        <div class="task-container">
+
+            <div class="task-card">
+                <h3>Lab Task 1</h3>
+                <p>Insert your laboratory activity description here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+            <div class="task-card">
+                <h3>Lab Task 2</h3>
+                <p>Insert your laboratory activity description here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+            <div class="task-card">
+                <h3>Lab Task 3</h3>
+                <p>Insert your laboratory activity description here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FINAL LAB TASKS -->
+    <section class="tasks" id="final">
+        <h2>Final Laboratory Tasks</h2>
+
+        <div class="task-container">
+
+            <div class="task-card">
+                <h3>Final Lab Task 1</h3>
+                <p>Insert your final laboratory activity here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+            <div class="task-card">
+                <h3>Final Lab Task 2</h3>
+                <p>Insert your final laboratory activity here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+            <div class="task-card">
+                <h3>Final Lab Task 3</h3>
+                <p>Insert your final laboratory activity here.</p>
+                <a href="#">View Activity</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Gopez, Khean Aislie S. | Domain Expansion Portfolio</p>
+    </footer>
+
+</body>
+</html>
