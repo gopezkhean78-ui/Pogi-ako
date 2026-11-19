@@ -166,21 +166,6 @@
             font-size: 15px;
         }
 
-        .card a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 11px 22px;
-            color: white;
-            background: #8b4bd1;
-            border-radius: 8px;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-
-        .card a:hover {
-            background: #a855f7;
-        }
-
         /* FOOTER */
         footer {
             width: 100%;
@@ -356,20 +341,17 @@
 
             <div class="card">
                 <h3>Laboratory Task 1</h3>
-                <p>My first laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
             <div class="card">
                 <h3>Laboratory Task 2</h3>
-                <p>My second laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
             <div class="card">
                 <h3>Laboratory Task 3</h3>
-                <p>My third laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
         </div>
@@ -385,20 +367,17 @@
 
             <div class="card">
                 <h3>Final Task 1</h3>
-                <p>My first final laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
             <div class="card">
                 <h3>Final Task 2</h3>
-                <p>My second final laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
             <div class="card">
                 <h3>Final Task 3</h3>
-                <p>My third final laboratory activity.</p>
-                <a href="#">View Task</a>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
             </div>
 
         </div>
@@ -412,4 +391,3 @@
 
 </body>
 </html>
-
