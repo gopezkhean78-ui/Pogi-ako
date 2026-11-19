@@ -346,12 +346,12 @@
 
             <div class="card">
                 <h3>Laboratory Task 2</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>lab task2 midterms term 2 prog.pdf</p>
             </div>
 
             <div class="card">
                 <h3>Laboratory Task 3</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil wala pa ray mo</p>
             </div>
 
         </div>
@@ -367,17 +367,17 @@
 
             <div class="card">
                 <h3>Final Task 1</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil wala. ray mo </p>
             </div>
 
             <div class="card">
                 <h3>Final Task 2</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil wala. ray mo</p>
             </div>
 
             <div class="card">
                 <h3>Final Task 3</h3>
-                <p>dito ilalagay ang link pero di ko pa nilagay dahil ang hirap ilagay aray mo.</p>
+                <p>dito ilalagay ang link pero di ko pa nilagay dahil wala. ray mo</p>
             </div>
 
         </div>
