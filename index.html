@@ -23,6 +23,7 @@
         header {
             min-height: 100vh;
             padding: 25px 8%;
+            position: relative;
             background:
                 linear-gradient(rgba(8, 5, 17, .75), rgba(8, 5, 17, .95)),
                 radial-gradient(circle at center, #54217b, #080511 70%);
@@ -34,6 +35,7 @@
             align-items: center;
             flex-wrap: wrap;
             gap: 15px;
+            padding-right: 420px;
         }
 
         .logo {
@@ -53,32 +55,43 @@
             color: #c99aff;
         }
 
+        /* LARGE UPPER-RIGHT PROFILE */
         .profile {
             position: absolute;
-            top: 85px;
-            right: 8%;
+            top: 100px;
+            right: 5%;
+            width: 380px;
             text-align: center;
+            z-index: 2;
         }
 
         .profile img {
-            width: 600px;
-            height: 450px;
-            border-radius: 70%;
-            border: 8px solid #bd83ff;
-            object-fit: cover;
-            box-shadow: 0 0 25px #a855f7;
-            background: #251238;
+            width: 100%;
+            height: 420px;
+            object-fit: contain;
+            background: #171024;
+            border: 4px solid #bd83ff;
+            border-radius: 18px;
+            box-shadow: 0 0 30px #a855f7;
+            transition: .3s;
+        }
+
+        .profile img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 45px #c084fc;
         }
 
         .profile p {
-            margin-top: 60px;
+            margin-top: 12px;
             color: #d8baff;
-            font-size: 30px;
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .hero {
             margin-top: 180px;
             max-width: 750px;
+            padding-right: 400px;
             animation: appear 1.5s ease;
         }
 
@@ -220,32 +233,31 @@
             }
         }
 
-        @media (max-width: 700px) {
+        /* MOBILE VIEW */
+        @media (max-width: 900px) {
+            nav {
+                padding-right: 0;
+                justify-content: center;
+            }
+
             .profile {
                 position: static;
-                margin-top: 35px;
+                width: min(380px, 100%);
+                margin: 40px auto 0;
             }
 
             .profile img {
-                width: 200px;
-                height: 200px;
+                height: 350px;
             }
 
             .hero {
-                margin-top: 80px;
+                margin-top: 70px;
+                padding-right: 0;
                 text-align: center;
             }
 
             .hero h1 {
                 font-size: 38px;
-            }
-
-            nav {
-                justify-content: center;
-            }
-
-            nav a {
-                margin: 5px;
             }
         }
     </style>
@@ -267,9 +279,9 @@
             </div>
         </nav>
 
-        <!-- PROFILE PICTURE -->
+        <!-- PROFILE PICTURE: Media.jpg -->
         <div class="profile">
-            <img src="./akoto.jpg" alt="My Profile Photo">
+            <img src="./Media.jpg" alt="My Profile Photo">
             <p>Gopez, Khean Aislie S.</p>
         </div>
 
@@ -371,4 +383,3 @@
 
 </body>
 </html>
-
